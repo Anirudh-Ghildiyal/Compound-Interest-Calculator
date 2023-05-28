@@ -1,0 +1,47 @@
+  body {
+      background: url("images/background.jpg") center center fixed;
+      background-size: cover;
+      transition: background 0.5s ease-in-out;
+  }
+
+  .container {
+      position: relative;
+      height: 100vh;
+  }
+
+  .card-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+  }
+
+  .card-title {
+      text-align: center;
+  }
+
+  .card-body {
+      height: 40vh;
+      overflow-y: auto;
+  }
+
+  #payment-container {
+      display: none;
+  }
+
+  #result-container {
+      display: none;
+  }
+
+  #result{
+    text-align: center;
+  }
+  
+  #information-button {
+      width: 100%;
+  }
+
+  #payment-button {
+      width: 100%;
+  }
